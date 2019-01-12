@@ -1,0 +1,22 @@
+/*Carrosel*/
+.letraPadrao{
+	color:black;
+	font-family: 'Kavivanar', cursive;
+}
+.servicos{
+	color:white;
+	font-family: 'Kavivanar', cursive;
+}
+
+#informacao{
+	background-image: url("../imagens/fundoBranco.jpg");
+	font-size: 20px;
+	width: 100%;
+	margin-top: -20px;
+}
+
+#servico{
+	background-color: #266ca7;
+	width: 100%;
+	height: 100%;
+}

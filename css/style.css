@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mensagens .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+body{
+    font-family: tahoma;
+    position: relative;
+}
+#vida{
+    font-size: 90px;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 5px 7px #11738b;
+    color: #fff;
+    /* umas cores legais 
+        #11738b
+        #dd6a6a
+    */
+}
+.carousel-caption{
+   bottom: 10%;
+}
+.imagemfundo{
+    filter: brightness(70%);
+}
+/*botao de consulta slide*/
+.btnConsulta {
+    color: #fff;
+    background-color: transparent;
+    border-color: #ccc;
+}
+/*---*/
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+.affix.navbar-default{
+    /*background:rgba(0, 0, 0, 0.5) none repeat scroll 0 0;*/
+    background-color: #11738b;
+    transition: all 0.9s ease 0s;
+}
+.navbar-default .navbar-brand{
+    color:#eee;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.navbar-default .navbar-brand : hover , .navbar-default .navbar-brand: focus{
+    background-color: transparent;
+    color: #fff;
+    
+} 
+.navbar-default .navbar-right{
+    margin-top: 15px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 1px solid #fff;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent; 
+    border: 1px solid;
+}
+
+.imagemServico{
+    padding-left:20px;
+    overflow: hidden;
+}
+.imagemServico > img{
+    width: 300px;
+    height: 200px;
+}
+.imputPersonalizado{
+    border-radius: 12px 12px 12px 0;
+    border: 1px solid #2583d3;
+}
+.texto-padrao{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    color: #191919;
+}
+
+
+/*fotos de lugares da clinica*/
+.plase-showcase{
+    list-style: none;
+    width: 100%;
+}
+.place-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+.place-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.place-photo img{
+    width: 100%;
+    height: 200px;
+    transform: scale(1.15);
+    transition : all 0.5s;
+}
+.place-photo img:hover{
+    transform: scale(1.05);
+}
+
+/*section localização*/
+#contato-clinica{
+    background-color: #11738b;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+/*Cadastre-se home*/
+#fundo-cadastre-se{
+    background-image: url(../imagens/carrosel2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    margin-top: 100px;
+}
+
+
+/*Home do usuario*/
+.navbar-inverse{
+    background-color: #11738b;
+    color: white;
+    border-color: #0b5162;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    margin-top: 10px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    font-size: 15px;
+}
+.navbar-inverse .navbar-nav > ul> li{
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #11738b;
+
+}
+
+#calendar {
+                max-width: 750px;
+                margin: 0 auto;
+            }
+
